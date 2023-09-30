@@ -29,6 +29,7 @@ const App = () => {
   return (
     <div>
       <div className="wrapper">
+        <h1>POKEMONS</h1>
         <div className="pokemons">
           {pokemons.map((pokemon) => (
             <div key={pokemon.id} className={'pokemon'}>
